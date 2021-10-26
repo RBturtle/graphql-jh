@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-const {API_URL} = preocess.env;  //'http://localhost:4000/v1';
+const {API_URL} = process.env;  //'http://localhost:4000/v1';
 
 const Query = {
     patient: async (parent, args, context, info) => {
