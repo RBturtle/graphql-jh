@@ -10,6 +10,8 @@ const server = new ApolloServer({
     context: () => ({
         loaders: getDataLoaders(),
     }),
+
+    cors: true
 });
 
 server
